@@ -73,27 +73,27 @@ Each agent focuses on a dedicated task for accuracy and clarity.
 
 ### 🟦 Home Screen  
 <p align="center">
-  <img src="[screenshots/home](https://github.com/Junedshaikh1/ai-multi-agent-learning-assistant/blob/77bb74a3e728181d5fdea4e665430e857439a80a/home.png).png" width="850"/>
+  <img src="home.png" width="850"/>
 </p>
 
 ### 🟪 Diagnosis Output  
 <p align="center">
-  <img src="screenshots/diagnosis.png" width="850"/>
+  <img src="diagnosis.png" width="850"/>
 </p>
 
 ### 🟦 Teaching Output  
 <p align="center">
-  <img src="screenshots/teaching.png" width="850"/>
+  <img src="teaching.png" width="850"/>
 </p>
 
 ### 🟩 Study Plan Output  
 <p align="center">
-  <img src="screenshots/studyplan.png" width="850"/>
+  <img src="studyplan.png" width="850"/>
 </p>
 
 ### 🟥 Reflection Output  
 <p align="center">
-  <img src="screenshots/reflection.png" width="850"/>
+  <img src="reflection.png" width="850"/>
 </p>
 
 ---
