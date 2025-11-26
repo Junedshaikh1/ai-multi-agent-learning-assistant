@@ -96,6 +96,10 @@ Each agent focuses on a dedicated task for accuracy and clarity.
   <img src="reflection.png" width="850"/>
 </p>
 
+### 🟥 Architecture
+<p align="center">
+  <img src="architecture.png" width="850"/>
+</p>
 ---
 
 ## 🔧 Installation
