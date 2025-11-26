@@ -1,91 +1,203 @@
 # ai-multi-agent-learning-assistant
 Multi-Agent AI Learning Assistant for Students using Gemini 2.5 Flash.
 
-# 🎓 AI Multi-Agent Learning Assistant for Engineering Students  
-### Built using Gemini 2.5 Flash | Multi-Agent | Diagnosis + Teaching + Study Plan + Reflection
-
-This project is developed as part of **Kaggle's 5-Day AI Agents Intensive Capstone Project** under the track: **Agents for Good**.
-
----
-
-# 📌 Features
-
-✔ Multi-Agent System  
-✔ Weak Topic Diagnosis  
-✔ Teaching with analogies + code + MCQs  
-✔ Personalized 7-Day Study Plan  
-✔ Reflection + Motivation  
-✔ Memory + Tools + Score Predictor  
+# 🎓 AI Multi-Agent Learning Assistant  
+### Powered by Gemini 2.5 Flash + Streamlit  
+A smart educational multi-agent system that diagnoses weak topics, teaches concepts with examples, generates a personalized study plan, and gives reflective improvements with motivation.
 
 ---
 
-# 🧠 System Architecture
+## 📌 Overview  
+This project is created for the **Kaggle Agents Intensive Capstone – Agents for Good Track**.  
+It uses a **4-agent pipeline** backed by **Gemini 2.5 Flash** to help learners understand difficult topics through adaptive learning.
+
+---
+
+## 🏗️ Architecture Diagram
+
+<p align="center">
+  <img src="screenshots/architecture.png" width="850"/>
+</p>
+
+---
+
+## 🧩 Multi-Agent Pipeline
 
 ```
-User Input  
-   │  
-   ▼  
-Diagnosis Agent  
-   │  
-   ▼  
-Teaching Agent  
-   │  
-   ▼  
-Study Planner  
-   │  
-   ▼  
-Reflection  
-   ▼  
-Final Output  
+User Input
+   ↓
+Diagnosis Agent
+   ↓
+Teaching Agent
+   ↓
+Study Planner Agent
+   ↓
+Reflection Agent
+   ↓
+Streamlit UI Output
 ```
+
+Each agent focuses on a dedicated task for accuracy and clarity.
 
 ---
 
-# 🛠️ How to Run
+## ✨ Features
 
-### 1️⃣ Install dependencies
+### ✔ Multi-Agent System
+- **Diagnosis Agent:** Extracts weak topics  
+- **Teaching Agent:** Explanations + analogies + examples + MCQs  
+- **Study Planner Agent:** 7-day personalized plan  
+- **Reflection Agent:** Improvements + motivation + score estimation  
+
+### ✔ Modern Streamlit UI
+- Gradient neon headers  
+- ChatGPT-style output bubbles  
+- Sidebar with model info  
+- Smooth animations  
+- Tabs with icons  
+- Card layouts  
+
+### ✔ Tools Used
+- JSON Cleaner  
+- Code Execution Tool  
+- Score Prediction Tool  
+
+### ✔ Observability
+- Execution time logs  
+- Error-safe design  
+- Clean structured output  
+
+---
+
+## 🖥️ UI Screenshots  
+
+### 🟦 Home Screen  
+<p align="center">
+  <img src="screenshots/home.png" width="850"/>
+</p>
+
+### 🟪 Diagnosis Output  
+<p align="center">
+  <img src="screenshots/diagnosis.png" width="850"/>
+</p>
+
+### 🟦 Teaching Output  
+<p align="center">
+  <img src="screenshots/teaching.png" width="850"/>
+</p>
+
+### 🟩 Study Plan Output  
+<p align="center">
+  <img src="screenshots/studyplan.png" width="850"/>
+</p>
+
+### 🟥 Reflection Output  
+<p align="center">
+  <img src="screenshots/reflection.png" width="850"/>
+</p>
+
+---
+
+## 🔧 Installation
+
+### 1️⃣ Clone the repo
 ```bash
-pip install google-generativeai
+git clone https://github.com/YOUR_USERNAME/ai-multi-agent-learning-assistant.git
+cd ai-multi-agent-learning-assistant
 ```
 
-### 2️⃣ Set API Key (PowerShell)
+### 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Set API Key
+
+**Windows PowerShell**
 ```powershell
-$env:GEMINI_API_KEY="YOUR_API_KEY"
+$env:GEMINI_API_KEY="YOUR_KEY"
 ```
 
-### 3️⃣ Run the agent
+**Mac/Linux**
 ```bash
-python ai_agent.py
+export GEMINI_API_KEY="YOUR_KEY"
 ```
 
 ---
 
-# 📚 Example Input
+## 🚀 Run the App
 
 ```
-I am weak in CNN, RNN, overfitting, loops in Python, and tokenization.
+streamlit run ui.py
 ```
 
 ---
 
-# 📂 Project Structure
+## 🧠 Agent Breakdown
+
+### 🧠 Diagnosis Agent  
+Identifies weak topics using structured extraction.
+
+### 📘 Teaching Agent  
+Generates:
+- Concept explanation  
+- Analogy  
+- Python example  
+- MCQ with answer  
+
+### 🗓️ Study Planner Agent  
+Creates a 7-day study plan with focus + revision.
+
+### 💬 Reflection Agent  
+Improves plan and gives motivational advice.
+
+---
+
+## ⚙️ Technologies Used
+- Python  
+- Streamlit  
+- Gemini 2.5 Flash  
+- Multi-Agent Architecture  
+- Custom CSS Enhancements  
+
+---
+
+## 📂 Project Structure
 
 ```
-ai-agent/
+/
 │── ai_agent.py
+│── ui.py
+│── requirements.txt
 │── README.md
+│── screenshots/
+└── .streamlit/
+       └── config.toml
 ```
 
 ---
 
-# 📌 Future Improvements
-- Add UI (Streamlit)
-- Add RAG memory
-- Add visualization tools
+## 🎬 Demo Video  
+Add your final YouTube link here:
+
+```
+https://youtube.com/your-video
+```
 
 ---
 
-# 👤 Author  
+## 📄 Presentation  
+`AI-Multi-Agent-Learning-Assistant.pptx`
+
+---
+
+## 🙌 Author  
 **Juned Shaikh**  
-B.Tech AI & Data Science  
-DBATU University
+B.Tech — Artificial Intelligence & Data Science  
+DBATU University  
+
+---
+
+## ⭐ Support  
+If you like this project, please ⭐ star the repo!
+
