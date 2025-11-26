@@ -73,7 +73,7 @@ Each agent focuses on a dedicated task for accuracy and clarity.
 
 ### 🟦 Home Screen  
 <p align="center">
-  <img src="screenshots/home.png" width="850"/>
+  <img src="[screenshots/home](https://github.com/Junedshaikh1/ai-multi-agent-learning-assistant/blob/77bb74a3e728181d5fdea4e665430e857439a80a/home.png).png" width="850"/>
 </p>
 
 ### 🟪 Diagnosis Output  
