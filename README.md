@@ -181,15 +181,6 @@ Improves plan and gives motivational advice.
 
 ---
 
-## 🎬 Demo Video  
-Add your final YouTube link here:
-
-```
-https://youtube.com/your-video
-```
-
----
-
 ## 📄 Presentation  
 `AI-Multi-Agent-Learning-Assistant.pptx`
 
